@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bb1ff4739a32d74b63b8cfc31faa84ac384105e4",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-27T22:45:40.000Z",
       "message": "suma varios números separados por coma",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/bb1ff4739a32d74b63b8cfc31faa84ac384105e4"
     },
     "stats": {
       "total": 3,
@@ -74,5 +74,24 @@
     "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-27T22:48:54.000Z",
+      "message": "suma mas de 3 números separados por coma",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
