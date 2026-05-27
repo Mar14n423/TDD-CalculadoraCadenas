@@ -8,9 +8,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b1e0a49070b220c87e546976cb840dbf63228a6d",
     "commitName": "retornar 0 para cadena vacía junto a su prueba",
     "commitTimestamp": 1779917414916,
     "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779917691318,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779917716125,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "validar cadena con un número",
+    "commitTimestamp": 1779917996981,
+    "testId": 1
   }
 ]

@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "b1e0a49070b220c87e546976cb840dbf63228a6d",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-27T21:29:45.000Z",
       "message": "retornar 0 para cadena vacía junto a su prueba",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/b1e0a49070b220c87e546976cb840dbf63228a6d"
     },
     "stats": {
       "total": 16,
@@ -15,6 +15,25 @@
     },
     "coverage": 80,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-27T21:39:29.000Z",
+      "message": "validar cadena con un número",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
