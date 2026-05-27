@@ -11,3 +11,6 @@ test("cadena con un número retorna ese número", () => {
 test("cadena con dos números separados por coma retorna la suma", () => {
   expect(add("1,2")).toBe(3);
 });
+test("cadena con varios números separados por coma retorna la suma", () => {
+  expect(add("1,2,3")).toBe(6);
+});
