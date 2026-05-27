@@ -30,9 +30,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e65fa8028bfdfd47d38511a7ec436348a26b937f",
     "commitName": "validar cadena con un número",
     "commitTimestamp": 1779917996981,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1779921092647,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779921565741,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "suma dos números separados por coma",
+    "commitTimestamp": 1779921732072,
+    "testId": 2
   }
 ]

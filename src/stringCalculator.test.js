@@ -8,3 +8,6 @@ describe("Calculadora de cadenas", () => {
 test("cadena con un número retorna ese número", () => {
   expect(add("2")).toBe(2);
 });
+test("cadena con dos números separados por coma retorna la suma", () => {
+  expect(add("1,2")).toBe(3);
+});

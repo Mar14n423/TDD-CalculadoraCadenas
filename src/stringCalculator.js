@@ -3,7 +3,10 @@ function add(input) {
     return 0;
   }
 
-  return Number(input);
+  return input
+    .split(",")
+    .map((numberText) => Number(numberText))
+    .reduce((sum, number) => sum + number, 0);
 }
 
 module.exports = { add };

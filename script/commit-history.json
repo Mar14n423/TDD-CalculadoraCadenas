@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e65fa8028bfdfd47d38511a7ec436348a26b937f",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-27T21:39:29.000Z",
       "message": "validar cadena con un número",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/e65fa8028bfdfd47d38511a7ec436348a26b937f"
     },
     "stats": {
       "total": 3,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-27T22:41:57.000Z",
+      "message": "suma dos números separados por coma",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-05-27"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
