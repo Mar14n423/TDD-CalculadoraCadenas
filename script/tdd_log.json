@@ -1,0 +1,16 @@
+[
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779917157052,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retornar 0 para cadena vacía junto a su prueba",
+    "commitTimestamp": 1779917414916,
+    "testId": 0
+  }
+]
