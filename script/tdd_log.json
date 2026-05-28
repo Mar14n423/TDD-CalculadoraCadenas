@@ -124,9 +124,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93541721a6c5b3f2623ffa309c54ccdb5bf5eb49",
     "commitName": "se agrego un delimitador personalizado",
     "commitTimestamp": 1779933383592,
     "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779933571864,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Soporte de delimitadores personalizados combinados",
+    "commitTimestamp": 1779933650889,
+    "testId": 7
   }
 ]

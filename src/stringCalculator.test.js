@@ -23,3 +23,6 @@ test("cadena con coma y guion retorna la suma", () => {
 test("cadena con delimitador personalizado punto y coma retorna la suma", () => {
   expect(add("//[;] 6;7;4")).toBe(17);
 });
+test("cadena con delimitador personalizado y separadores mixtos retorna la suma", () => {
+  expect(add("//[;] 6,3-2;1")).toBe(12);
+});
