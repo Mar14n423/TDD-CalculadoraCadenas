@@ -20,3 +20,6 @@ test("cadena con muchos números retorna la suma total", () => {
 test("cadena con coma y guion retorna la suma", () => {
   expect(add("1-2,3")).toBe(6);
 });
+test("cadena con delimitador personalizado punto y coma retorna la suma", () => {
+  expect(add("//[;] 6;7;4")).toBe(17);
+});
