@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1686c26598d7b541657bd9eb67f0d1cdb7b68095",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-28T02:20:49.000Z",
       "message": "soportar delimitadores de varios caracteres",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/1686c26598d7b541657bd9eb67f0d1cdb7b68095"
     },
     "stats": {
       "total": 9,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-28T02:26:22.000Z",
+      "message": "soporta múltiples delimitadores personalizados",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 13,
+      "deletions": 5,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

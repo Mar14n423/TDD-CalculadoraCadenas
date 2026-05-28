@@ -29,6 +29,9 @@ test("cadena con delimitador personalizado y separadores mixtos retorna la suma"
 test("delimitador de varios caracteres retorna la suma", () => {
   expect(add("//[***] 1***2***3")).toBe(6);
 });
+test("múltiples delimitadores retornan la suma correcta", () => {
+  expect(add("//[*][%] 1*2%3,7-9")).toBe(22);
+});
 test("números mayores a 1000 son ignorados", () => {
   expect(add("2,1001")).toBe(2);
 });

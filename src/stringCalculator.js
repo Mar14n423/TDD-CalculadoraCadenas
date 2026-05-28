@@ -5,13 +5,18 @@ function add(input) {
 
   let numbersSection = input;
   let delimiters = [",", "-"];
-
-  const customDelimiterMatch = input.match(/^\/\/\[(.*)\]\s(.*)$/);
-
+  const customDelimiterMatch = input.match(/^\/\/(.+)\s(.*)$/);
+  
   if (customDelimiterMatch) {
-    delimiters.push(customDelimiterMatch[1]);
-    numbersSection = customDelimiterMatch[2];
-  }
+        numbersSection = customDelimiterMatch[2];
+        const delimiterSection = customDelimiterMatch[1];
+
+        const foundDelimiters = [...delimiterSection.matchAll(/\[(.*?)\]/g)].map(
+            (match) => match[1]
+        );
+
+        delimiters.push(...foundDelimiters);
+   }
 
   const escapedDelimiters = delimiters.map((delimiter) =>
   delimiter.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
