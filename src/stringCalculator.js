@@ -13,7 +13,11 @@ function add(input) {
     numbersSection = customDelimiterMatch[2];
   }
 
-  const regex = new RegExp(delimiters.join("|"));
+  const escapedDelimiters = delimiters.map((delimiter) =>
+  delimiter.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+);
+
+const regex = new RegExp(escapedDelimiters.join("|"));
 
   return numbersSection
     .split(regex)

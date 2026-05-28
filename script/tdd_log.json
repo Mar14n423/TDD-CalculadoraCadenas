@@ -160,9 +160,47 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fe1d7f0f9ff3ce336768e589072e2631d187cf0",
     "commitName": "ignorar números mayores a 1000",
     "commitTimestamp": 1779933896359,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1779934338429,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1779934429130,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1779934562723,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779934811732,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "soportar delimitadores de varios caracteres",
+    "commitTimestamp": 1779934885973,
+    "testId": 9
   }
 ]

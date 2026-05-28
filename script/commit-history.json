@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5fe1d7f0f9ff3ce336768e589072e2631d187cf0",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-28T02:04:20.000Z",
       "message": "ignorar números mayores a 1000",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/5fe1d7f0f9ff3ce336768e589072e2631d187cf0"
     },
     "stats": {
       "total": 4,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-28T02:20:49.000Z",
+      "message": "soportar delimitadores de varios caracteres",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
