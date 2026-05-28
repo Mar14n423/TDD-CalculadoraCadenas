@@ -80,9 +80,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f999830018fbddb1972b9a0724270ae72d3c4ee7",
     "commitName": "suma mas de 3 números separados por coma",
     "commitTimestamp": 1779922161019,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1779922235632,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1779933019544,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "se agrego un soporte para separador guion",
+    "commitTimestamp": 1779933126748,
+    "testId": 5
   }
 ]

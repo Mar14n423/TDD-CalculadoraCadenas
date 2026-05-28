@@ -4,7 +4,7 @@ function add(input) {
   }
 
   return input
-    .split(",")
+    .split(/,|-/)
     .map((numberText) => Number(numberText))
     .reduce((sum, number) => sum + number, 0);
 }

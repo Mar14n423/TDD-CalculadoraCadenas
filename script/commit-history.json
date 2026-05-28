@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f999830018fbddb1972b9a0724270ae72d3c4ee7",
     "author": "Mar14n423",
     "commit": {
       "date": "2026-05-27T22:48:54.000Z",
       "message": "suma mas de 3 números separados por coma",
-      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/f999830018fbddb1972b9a0724270ae72d3c4ee7"
     },
     "stats": {
       "total": 3,
@@ -93,5 +93,24 @@
     "test_count": 7,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mar14n423",
+    "commit": {
+      "date": "2026-05-28T01:51:17.000Z",
+      "message": "se agrego un soporte para separador guion",
+      "url": "https://github.com/Mar14n423/TDD-CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
