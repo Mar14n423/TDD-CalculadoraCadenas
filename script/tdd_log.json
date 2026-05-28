@@ -138,9 +138,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a3e9462b7e8369e91e7470867661148ab425d0cf",
     "commitName": "Soporte de delimitadores personalizados combinados",
     "commitTimestamp": 1779933650889,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1779933719481,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1779933802620,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "ignorar números mayores a 1000",
+    "commitTimestamp": 1779933896359,
+    "testId": 8
   }
 ]

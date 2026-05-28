@@ -18,6 +18,7 @@ function add(input) {
   return numbersSection
     .split(regex)
     .map((numberText) => Number(numberText))
+    .filter((number) => number <= 1000)
     .reduce((sum, number) => sum + number, 0);
 }
 
