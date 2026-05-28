@@ -220,9 +220,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d87b0314759c9c1c6fc6f78adf50f29a74322025",
     "commitName": "soporta múltiples delimitadores personalizados",
     "commitTimestamp": 1779935226447,
     "testId": 10
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1779935919147,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1779936351937,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "ignorar espacios alrededor de numeros",
+    "commitTimestamp": 1779936547720,
+    "testId": 11
   }
 ]

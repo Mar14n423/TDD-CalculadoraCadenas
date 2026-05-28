@@ -35,3 +35,6 @@ test("múltiples delimitadores retornan la suma correcta", () => {
 test("números mayores a 1000 son ignorados", () => {
   expect(add("2,1001")).toBe(2);
 });
+test("ignora espacios alrededor de los números", () => {
+  expect(add("1, 2, 3")).toBe(6);
+});
